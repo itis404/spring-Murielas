@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.instrument-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 50px 0;
+    gap: 50px;
+}
+
+.instrument-image img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.instrument-info {
+    flex: 1;
+}
+
+.instrument-info h2 {
+    font-size: 32px;
+}
+
+.instrument-info p {
+    font-size: 18px;
+}
+
+.modes {
+    margin-top: 20px;
+}
+
+.mode-card {
+    margin-bottom: 20px;
+}
+
+.play-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}

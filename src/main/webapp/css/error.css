@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container {
+    text-align: center;
+}
+
+.error-container h1 {
+    font-size: 120px;
+    margin: 0;
+}
+
+.error-container h2 {
+    margin-bottom: 20px;
+}
+
+.error-container p {
+    margin-bottom: 15px;
+}
+
+.error-container a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

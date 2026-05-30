@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-card {
+    background-color: #79cb7c;
+    width: 400px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.auth-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-card input {
+    padding: 12px;
+}
+
+.auth-card button {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}

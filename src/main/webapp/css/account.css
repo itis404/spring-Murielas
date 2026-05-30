@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.profile-container {
+    width: 800px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.user-info {
+    margin-bottom: 40px;
+}
+
+.levels {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.level-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+.admin-panel {
+    margin-top: 40px;
+}
+
+.admin-panel a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}

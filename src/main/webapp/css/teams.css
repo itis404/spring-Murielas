@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.create-team {
+    margin: 20px;
+}
+
+.create-team input {
+    padding: 10px;
+}
+
+.create-team button {
+    padding: 10px 20px;
+}
+
+.teams-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
